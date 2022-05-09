@@ -56,34 +56,6 @@ it Handle Command Path Also Like /bin/ls And All The Option And Path Like /bin/l
 it Handle Comments #
 
 
-# Exmples Builtin
-case env and exit
-
-Username@your-regular-prompt:~$ ./hsh
-USER=julien
-LANGUAGE=en_US
-SESSION=ubuntu
-COMPIZ_CONFIG_PROFILE=ubuntu
-SHLVL=1
-HOME=/home/julien
-C_IS=Fun_:)
-DESKTOP_SESSION=ubuntu
-LOGNAME=julien
-TERM=xterm-256color
-PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-DISPLAY=:0
-$ exit
-Username@your-regular-prompt:~$ 
-
-# Case Exit Statue
-
-Username@your-regular-prompt:~$ ./hsh
-$ exit 98
-Username@your-regular-prompt:~$ echo $?
-98
-Username@your-regular-prompt:~$
-
-Keep Exploring The echo Builtin and history ... Using The Help Builtin
 
 # Also
 Handle Ctrl+C: your shell should not quit when the user inputs ^C
