@@ -113,6 +113,7 @@ Handle the $$ variable
 Handle The Argument file like ./hsh test Where test is a file filled with command and builtin to excute.
 
 # List of functions and system calls we could use
+
 List of allowed functions and system calls
 
 access (man 2 access)
