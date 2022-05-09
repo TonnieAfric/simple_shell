@@ -167,6 +167,7 @@ _realloc
 _getenv
 _getline
 _strtok
+
 For More Info About It Check The Man Page by
 
 Username@your-regular-prompt:~$ man ./man_1_simple_shell
